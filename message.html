@@ -1,0 +1,50 @@
+<!DOCTYPE.html>
+
+<html>
+
+<head>
+
+<style>
+
+.output_message{
+border:2px solid green;
+width:400px;
+height:400px;
+}
+
+</style>
+
+</head>
+
+<body>
+<form class='message_form'>
+<input type='text' class='input_mesage' placeholder='Enter the text'>
+<button type='submit'>Submit</button>
+
+ </form>
+ 
+<div class='output_message'>
+
+
+
+</div>
+
+<script>
+  const input = document.querySelector('.input_mesage');
+        const output_message = document.querySelector('.output_message');
+        const form = document.querySelector('.message_form');
+
+        form.addEventListener('submit', function (event) {
+            //event.preventDefault(); 
+            
+			output_message.innerHTML=input.value;
+			output_message.innerHTML +=input.value;
+         
+		 input.value='';
+        });
+//console.log(input,output_message);
+
+</script>
+</body>
+
+</html>
