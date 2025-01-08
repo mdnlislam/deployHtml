@@ -33,16 +33,16 @@ height:400px;
   const input = document.querySelector('.input_mesage');
         const output_message = document.querySelector('.output_message');
         const form = document.querySelector('.message_form');
-
         form.addEventListener('submit', function (event) {
-            //event.preventDefault(); 
+            event.preventDefault(); 
+          
             
-			output_message.innerHTML=input.value;
-			output_message.innerHTML +=input.value;
+			output_message.innerHTML +=input.value+'<br>' ;
+		// output_message.innerHTML +=input.value;
          
 		 input.value='';
         });
-//console.log(input,output_message);
+console.log(output_message);
 
 </script>
 </body>
