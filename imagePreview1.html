@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+<style>
+
+
+.table_con{
+display:none;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class='table'>
+  <a class='icon' href=''><i class="fa-solid fa-caret-down"></i> </a>
+  <div class='message'>
+  </div>
+  
+   <div class='table_con'>
+      <h2>rakib</h2>
+   </div>
+</div>
+
+<script>
+ const Down_icon=document.querySelector('.icon');
+ const show_display=document.querySelector('.table_con')
+ const  output=document.querySelector('.message');
+  let isVisible = false;
+  
+  
+ Down_icon.addEventListener('click',function(){
+     event.preventDefault();
+ 
+ 
+   if(!isVisible){
+    output.innerHTML = show_display.innerHTML; 
+	output.style.display = 'block';
+   }
+   else{
+    output.innerText = '';
+	 output.style.display = 'none';
+   }
+    isVisible = !isVisible;
+  
+ });
+ 
+ //console.log(Down_icon,show_display);
+
+</script>
+
+</body>
+</html>
+
