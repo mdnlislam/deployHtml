@@ -10,6 +10,7 @@
 border:2px solid green;
 width:400px;
 height:400px;
+text-align:center;
 }
 
 </style>
@@ -33,12 +34,13 @@ height:400px;
   const input = document.querySelector('.input_mesage');
         const output_message = document.querySelector('.output_message');
         const form = document.querySelector('.message_form');
+		
         form.addEventListener('submit', function (event) {
             event.preventDefault(); 
           
-            
-			output_message.innerHTML +=input.value+'<br>' ;
-		// output_message.innerHTML +=input.value;
+            const messaDive=document.createElement('div');
+			messaDive.textContent  =input.value;
+		    output_message.appendChild(messaDive);
          
 		 input.value='';
         });
