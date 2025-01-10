@@ -10,8 +10,9 @@
 border:2px solid green;
 width:400px;
 height:400px;
-text-align:center;
+text-align:;
 }
+  
 
 </style>
 
@@ -35,11 +36,33 @@ text-align:center;
         const output_message = document.querySelector('.output_message');
         const form = document.querySelector('.message_form');
 		
+		
+		
         form.addEventListener('submit', function (event) {
             event.preventDefault(); 
+			
+			  const messageText = input.value.trim();
+    if (messageText === '') {
+        return; // Do nothing if input is empty
+    }
           
             const messaDive=document.createElement('div');
-			messaDive.textContent  =input.value;
+			messaDive.textContent  = messageText;
+			
+			
+		
+		 
+		
+		 if(messageText==='2'){
+		 messaDive.style.textAlign='left';
+		 }
+		 else{
+		 messaDive.style.textAlign='right';
+		 
+		 }
+		 
+		
+			
 		    output_message.appendChild(messaDive);
          
 		 input.value='';
