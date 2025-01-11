@@ -10,8 +10,9 @@
 border:2px solid green;
 width:400px;
 height:400px;
-text-align:;
+
 }
+
   
 
 </style>
@@ -29,6 +30,7 @@ text-align:;
 
 
 
+
 </div>
 
 <script>
@@ -37,37 +39,51 @@ text-align:;
         const form = document.querySelector('.message_form');
 		
 		
+		    const messages=[];
+			
 		
+		
+		
+		
+			
         form.addEventListener('submit', function (event) {
             event.preventDefault(); 
 			
-			  const messageText = input.value.trim();
-    if (messageText === '') {
-        return; // Do nothing if input is empty
-    }
+	
           
             const messaDive=document.createElement('div');
-			messaDive.textContent  = messageText;
+			const message=messaDive.textContent  = input.value;
 			
-			
+			messages.push(message);
 		
 		 
+		 
+		 for(i=0;i<messages.length;i++){
 		
-		 if(messageText==='2'){
-		 messaDive.style.textAlign='left';
+		 const mod=(i+1)% 2;
+		 console.log({mod});
+		 
+		 if( mod ===0){
+		 messaDive.style.textAlign='right';
+		 console.log('hello');
+		 
 		 }
 		 else{
-		 messaDive.style.textAlign='right';
-		 
+			 messaDive.style.textAlign='left';
+           
+		 console.log('hi');
 		 }
 		 
 		
-			
-		    output_message.appendChild(messaDive);
+		
+			};
+		 
+		
+		    const iiii=output_message.appendChild(messaDive);
          
 		 input.value='';
         });
-console.log(output_message);
+//console.log(output_message);
 
 </script>
 </body>
