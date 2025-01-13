@@ -9,6 +9,14 @@ width:400px;
 height:500px;
 }
 
+div:nth-child(odd) {
+  color: red;
+  text-align:left;
+}
+div:nth-child(even) {
+ color: green;
+ text-align:right;
+}
 </style>
 </head>
 
@@ -33,7 +41,7 @@ from.addEventListener('submit',function(event){
 
 const values=`<div>${input.value}</div>`;
 
-output.insertAdjacentHTML("afterbegin",values);
+output.insertAdjacentHTML("beforeend",values);
 
 input.value='';
 
