@@ -1,13 +1,36 @@
 
 const output_message=document.querySelector('.output_message');
 
-const  profile=document.querySelector('.profile');
+const  profiles=document.querySelectorAll('.profile');
 
-profile.addEventListener('click',function(){
+
+
+
+
+
+
+profiles.forEach(function(profile){
+	
+	
+	
+	profile.addEventListener('click',function(){
+	
+	
+	
 	
 	output_message.innerHTML=profile.innerHTML;
-	output_message.style.display='block';
+	
+	
+	profiles.forEach(function(item){
+		
+		item.style.backgroundColor='';
+	});
+	
+	
+	profile.style.backgroundColor='#737c81';
+	
+	
+	
 });
-
-
-console.log(output_message,profile);
+			
+});
