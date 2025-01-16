@@ -1,6 +1,5 @@
 
 const output_message=document.querySelector('.output_message');
-
 const  profiles=document.querySelectorAll('.profile');
 
 
@@ -15,6 +14,7 @@ profiles.forEach(function(profile){
 	
 	profile.addEventListener('click',function(){
 	
+
 	
 	
 	
@@ -29,7 +29,7 @@ profiles.forEach(function(profile){
 	
 	profile.style.backgroundColor='#737c81';
 	
-	
+	output_message.scrollTop = 0; 
 	
 });
 			
