@@ -53,3 +53,24 @@ function myFunction(item ,index ){
 	
 	console.log(eee);
 }
+
+//map
+
+const numbers=[4,9,16,25];
+
+const result=numbers.map(Math.sqrt);
+
+console.log(result);
+
+
+//map function
+
+const digits=[65,44,12,8];
+
+
+const newArray=digits.map(myFunction);
+
+function myFunction(num){
+	return  num * 4;
+}
+console.log( newArray);
