@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+
+</head>
+<body>
+
+<h2>insertAdjacen</h2>
+<div class='message'>
+
+	<button onclick="myFunction()">insert</button>
+
+	<div class='right_side'>
+          <h3 class="heading3">my friend is a good boy<h3>
+		  <h4 class='heading4'> Alloh help me</h4>
+		  <h5 class='heading5'>Alhamdulillah</h5>
+		  <h6 class='heading6'>allohakbar</h6>
+
+	</div>
+
+
+</div>
+<script>
+const heading3=document.querySelector('.heading3');
+
+const heading4=document.querySelector('.heading4');
+const heading5=document.querySelector('.heading5');
+const heading6=document.querySelector('.heading6');
+
+//console.log(heading3,heading4,heading5,heading6)
+
+
+function myFunction(){
+
+let html1="<p>Alloh,1</p>";
+let html2="<p>Bismillah,2</p>";
+let html3="<p>sobahanAlloh,3</p>";
+let html4="<p>Alhamdulillah,4</p>";
+
+
+heading3.insertAdjacentHTML("afterbegin",html1);
+heading4.insertAdjacentHTML("afterend",html2);
+heading5.insertAdjacentHTML("beforebegin",html3);
+heading6.insertAdjacentHTML("beforeend",html4);
+
+}
+
+
+</script>
+</body>
+</html>
