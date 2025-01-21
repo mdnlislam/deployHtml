@@ -26,17 +26,7 @@ profiles.forEach(function (profile) {
 
     // output_img.scrollTop = 0;
 	
-	const from=document.querySelector('.input_message');
-	const message_2=document.querySelector('.text_message .message1');
-	console.log(message_2);
-	const input_text=document.querySelector('.inputs');
-		input_text.style.color='red';
 	
-	from.addEventListener('Submit',function(event){
-		event.preventDefault();
-		
-		message_2.innerHTML=input_text.value;
-	});
 	
 	
 	//console.log(from);
@@ -46,3 +36,20 @@ profiles.forEach(function (profile) {
     right_toper.style.display='none';
   
 });
+
+const from=document.querySelector('.input_message');
+	const message_2=document.querySelector('.text_message');
+	console.log(message_2);
+	const input_text=document.querySelector('.inputs');
+		//input_text.style.color='red';
+	
+	from.addEventListener('submit',function(event){
+		event.preventDefault();
+		
+		const html=`<div>${input_text.value}</div>`;
+		
+    message_2.insertAdjacentHTML("beforebegin",html);
+		
+		//message_2.innerHTML=input_text.value;
+		input_text.value='';
+	});

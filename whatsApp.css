@@ -101,7 +101,6 @@ p {
   color: white;
   overflow: scroll;
   margin-top: 5px;
-  display: ;
   gap: 20px;
 }
 .whatsapp {
@@ -143,4 +142,15 @@ p {
   background-color: #74787a;
   border: none;
   color: white;
+}
+
+ div:nth-child(odd) {
+  text-align: right;
+  color: white;
+}
+
+div:nth-child(even) {
+  text-align: left;
+  color: white;
+  
 }
