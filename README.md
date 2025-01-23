@@ -76,4 +76,4 @@ Function
 
 ### tiles picture
 1.https://i.postimg.cc/RFywQ8sW/Whats-App-Image-2024-12-31-at-9-47-23-PM.jpg
-2.https://i.postimg.cc/7YgS0KgL/Whats-App-Image-2024-12-31-at-9-46-27-PM.jpg
+2.https://i.postimg.cc/7YgS0KgL/Whats-App-Image-2024-12-31-at-9-46-27-PM.jpg# whatsapp1.html
