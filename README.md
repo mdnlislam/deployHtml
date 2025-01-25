@@ -41,6 +41,9 @@
 2. data add,add data start of array,add data end of array,delete data start of array,delete dada end  of array
 3. data update ,delete
 4. find mathode
+5.array.join(and array to string)
+6.string to array  
+ 
 ### Condition
 1. if else      
 2. switch
