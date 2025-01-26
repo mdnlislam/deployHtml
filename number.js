@@ -8,3 +8,5 @@ let A='263472';
 
 let stringToNum= Number(A);
 console.log( typeof stringToNum);
+
+

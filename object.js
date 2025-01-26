@@ -12,7 +12,7 @@
 
 //object to string
 
-const product={
+/*const product={
 	A:'Apple',
 	B:'bat',
 };
@@ -46,3 +46,34 @@ console.log(valueAccess);
  delete product1['model'];
  
  console.log(product1);
+ */
+ 
+ /*### Object
+1. typeof object
+2. object to string
+3. separet key & valus
+4. valus access
+5. valus change or update or add
+6. property delete
+*/
+
+// type of object -object and array object
+
+//object to string
+
+const product={
+	name:"rony",
+	id:246718,
+	color:"red",
+}; 
+
+const objectTostring=JSON.stringify(product);
+
+const keys=Object.keys(product);
+
+const value=Object.values(product);
+const valueA=product['color']='green';
+const update=product['model']='x-altra';
+
+ delete product['color'];
+console.log(product);

@@ -4,6 +4,7 @@
 2. data add,add data start of array,add data end of array,delete data start of array,delete dada end  of array
 3. data update ,delete
 4. find mathode
+5.join
 */
 
  // how to identify array
@@ -37,3 +38,10 @@ console.log(results,length);
 let text = "How are you doing today?";
 const myArray = text.split("o");
 console.log(myArray)
+
+//join
+
+const frults=["banana","Orange","Apple","Mango"];
+ 
+ const join=frults.join(" and ");
+ console.log(join);
