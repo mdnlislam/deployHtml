@@ -9,7 +9,7 @@
 
  // how to identify array
  
- const fruits=["Banana","Orange","Apple","Mango"];
+/* const fruits=["Banana","Orange","Apple","Mango"];
  
  const result=Array.isArray(fruits);
  
@@ -44,4 +44,34 @@ console.log(myArray)
 const frults=["banana","Orange","Apple","Mango"];
  
  const join=frults.join(" and ");
- console.log(join);
+ console.log(join);*/
+ 
+ /*### Array Object
+1. how to identify array
+2. data add,add data start of array,add data end of array,delete data start of array,delete dada end  of array
+3. data update ,delete
+4. find mathode
+5.join
+*/
+
+
+const items=["BMW","TVS","RUNNER"];
+
+
+const res=Array.isArray(items);
+console.log(res); 
+
+const digit=[4,5,7,9,10];
+
+digit.push(11);
+digit.unshift(0);
+
+//data delete
+
+digit.pop();
+console.log(digit);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+delete fruits[1];
+
+console.log(fruits);
