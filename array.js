@@ -55,7 +55,7 @@ const frults=["banana","Orange","Apple","Mango"];
 */
 
 
-const items=["BMW","TVS","RUNNER"];
+/*const items=["BMW","TVS","RUNNER"];
 
 
 const res=Array.isArray(items);
@@ -75,3 +75,27 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 delete fruits[1];
 
 console.log(fruits);
+*/
+
+// Given array 
+let a1 = [ 
+{
+	name:'rakib',
+	id:2535,
+	
+}
+
+ ];
+
+
+let a2 =a1;
+
+
+const myTimeout = setTimeout(function(){
+a1 = [];
+	
+	
+}, 9000);
+
+console.log(a2)
+
