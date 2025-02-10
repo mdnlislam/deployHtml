@@ -46,3 +46,30 @@ console.log(stringToBoolean);
 4. boolean to number
 5. boolean to string
 */
+
+
+
+//2. number to boolean
+
+let roll=246718;
+let NumToBoole=Boolean(roll);
+console.log(NumToBoole);
+
+//string to boolean
+
+let str='rakib';
+let StrToBoole=Boolean(str);
+console.log( typeof StrToBoole);
+
+//4. boolean to number
+
+let boole=false;
+let BooleTonum=Number(boole);
+console.log(BooleTonum);
+
+
+//5. boolean to string
+
+let bool=true;
+let boToStr=bool.toString();
+console.log( typeof boToStr)
