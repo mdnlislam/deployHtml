@@ -160,7 +160,10 @@ let todos = [
     profileImage:
       "https://i.postimg.cc/bNk7LhDD/354873716-606127011649331-1303950734809081250-n.png",
     message:[
-	
+	{
+		text:'alhamdulillah',
+		date:new Date()
+	}
 	]
   },
   {
@@ -174,14 +177,23 @@ let todos = [
   
   
   
-  const mapped=todos.map(function(todo){
+  
+  
+  
+  function newMessage(message,id){
 	  
-	  if(todo.userId==1){
+	  
+	  todos.map(function(todo){
+	  
+	  if(todo.userId==id){
 		  
-		 return{
-			 ...todo,
-			 name:'baki'
-		 }
+		const messages=todo.message||[];
+		const messageobj={
+			
+			text:message,
+			date:new Date()
+		}
+		messages.push(messageobj);
 	  }
 	  
 	  
@@ -189,7 +201,12 @@ let todos = [
 	 return todo; 
 	  
   });
+	  
+	  
+	  
+  }
   
+
+  newMessage("how are you",1);
   
-  
-  console.log(mapped);
+  console.log(JSON .stringify(todos, null, 2 ));

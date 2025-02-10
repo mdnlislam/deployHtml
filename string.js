@@ -31,7 +31,7 @@ console.log(firstConcat,seconConcat,thirdConcat);
 7. find
 */
 
-let roll='246718';
+/*let roll='246718';
 let string=roll.toString();
 console.log(string);
 
@@ -118,4 +118,103 @@ let text="how are you doing today";
   
   //find
   
-  
+  */
+  /*### string
+1. number to string
+2. concat (3 ways)
+3. string to array 
+4. array to string
+5. map
+6. filter
+7. find
+*/
+
+
+let roll=246718;
+let result=roll.toString();
+console.log(result)
+
+let A='Apple';
+let B='Bat';
+let C='cat';
+
+const firstCon=A+B+C;
+const seconCon=A.concat(B,C);
+const thirtCon=`${A}${B}${C}`;
+
+console.log(firstCon,seconCon,thirtCon);
+
+// string to array 
+let string='you are you';
+let array=string.split(" ");
+console.log(array);
+
+//4. array to string
+const itemname=["BMW","TVS","RUNNER","HONDA"];
+
+const Str=itemname.toString();
+console.log(Str);
+
+
+//5. map
+
+const digit=[13,47,9,58,98];
+
+const arr=digit.map(myfunction);
+
+
+function myfunction(num){
+	
+	
+	return num *2
+}
+
+console.log(arr)
+
+const persons=[
+
+{FirstName:"Rakib",lastname:"Mia"},
+{FirstName:"Rony",lastname:"Mia"},
+{FirstName:"basir",lastname:"Mia"}
+
+
+
+
+];
+
+const per=persons.map(mapfunction);
+
+function mapfunction(item){
+	
+	
+	
+	return [item.FirstName,item.lastname].join(" ")
+};
+
+console.log(per);
+
+//6. filter
+
+/*const ages=[12,34,13,45,2,4,56];
+
+const Adult=ages.filter(AdultFunction);
+ function AdultFunction(age){
+	 
+	 
+	 
+	 return age>10;
+ };
+console.log(Adult);
+
+*/
+
+//7. find
+
+const ages=[12,23,45,67,34,3];
+
+const checkAge=ages.find(checkFunction);
+function checkFunction(age){
+	
+	return age>23;   // ata bojte hobe
+};
+console.log(checkAge);
