@@ -222,3 +222,56 @@ Newmessage("how are you",5);
 7. for of
 8. for loop decrement
 */
+
+for(i=0;i<5;i++){
+	
+	console.log("alhamdulillah");
+}
+
+const cars=["BMW","VOLVO","TVS","RUNNER"];
+let text='';
+for(i=0;i<cars.length;i++){
+	
+	text+=cars[i]
+	
+}
+console.log(text);
+
+//forEach
+
+const fruits=["apple","orange","cherry"];
+
+let fruit="";
+
+fruits.forEach(myFunction);
+
+function myFunction(item,index){
+	
+	
+	fruit+= index + ":" +item + "<br>";
+}
+//console.log(fruit)
+
+//for in
+  
+const person={
+	fname:"john",
+	lname:"Doe",
+	age:25
+};
+
+for(let x in person){
+	
+	console.log(x)
+}
+
+const digit=[2,4,6,8,3];
+
+/*for (let x of digit){
+	
+	console.log(x)
+}
+*/
+for(i=digit.length -1;i>=0;i--){
+	console.log(digit[i])
+};
