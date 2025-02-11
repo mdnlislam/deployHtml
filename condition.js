@@ -7,7 +7,7 @@ Function
 
 //if else      
 	
-const time=new Date().getHours();
+/*const time=new Date().getHours();
 
 let greeting;
 
@@ -64,3 +64,49 @@ day="saturday";
 	
 }
 console.log(day);
+*/
+
+/*### Condition
+1. if else      
+2. switch
+Function
+*/
+
+const time=new Date().getHours();
+let greeting;
+
+if(time<10){
+	greeting="Good morning"
+}
+else if(time<20){
+	greeting="Good day"
+}
+else{
+	
+	greeting="Good evening"
+}
+
+console.log(greeting);
+
+// switch
+
+
+let Text;
+
+switch (new Date().getDay()){
+	
+	default:
+	
+	Text="Looking forward to the Weekend";
+	break;
+	case 6:
+	Text="Today is saturday";
+	break;
+	case 0:
+	
+	Text="Today is Sunday"
+	
+	
+}
+
+console.log(Text);

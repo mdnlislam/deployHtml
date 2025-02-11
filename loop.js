@@ -153,7 +153,7 @@ Newmessage("how are you",5);
 
 	console.log(JSON .stringify(users, null, 2 ));
 */
-let todos = [
+/*let todos = [
   {
     userId: "1",
     name: "Md. Rony mia",
@@ -210,3 +210,15 @@ let todos = [
   newMessage("how are you",1);
   
   console.log(JSON .stringify(todos, null, 2 ));
+  
+  */
+  /*### Loop
+1. for
+2. while
+3. Do while
+4. map
+5. forEach
+6. for in
+7. for of
+8. for loop decrement
+*/

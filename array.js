@@ -114,3 +114,16 @@ const product={
 };
 const array=Array.isArray(items);
 console.log(array);
+//data add
+
+const digit=[12,3,45,7,9,4];
+
+
+digit.push(0);
+digit.unshift(1);
+digit.pop()
+digit.shift();
+
+delete digit[1];
+
+console.log(digit);
