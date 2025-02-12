@@ -39,3 +39,10 @@ console.log(agesResult);
 3. date Function
 4. math function 
 */
+
+const time=new Date().getMonth()+1;
+console.log(time);
+
+const math=Math.ceil(4.7);
+
+console.log(math)
