@@ -130,7 +130,7 @@ let text="how are you doing today";
 */
 
 
-let roll=246718;
+/*let roll=246718;
 let result=roll.toString();
 console.log(result)
 
@@ -210,7 +210,7 @@ console.log(Adult);
 
 //7. find
 
-const ages=[12,23,45,67,34,3];
+/*const ages=[12,23,45,67,34,3];
 
 const checkAge=ages.find(checkFunction);
 function checkFunction(age){
@@ -218,3 +218,53 @@ function checkFunction(age){
 	return age>23;   // ata bojte hobe
 };
 console.log(checkAge);
+*/
+
+/*### string
+1. number to string
+2. concat (3 ways)
+3. string to array 
+4. array to string
+5. map
+6. filter
+7. find
+*/
+
+
+//1. number to string
+
+let roll=246718;
+let numToStri=roll.toString()
+console.log(numToStri);
+
+
+
+//2. concat (3 ways)
+
+let A='apple';
+let B='belt';
+let c='cat';
+
+let firstCon=A+B+c;
+let seconCon=`${A}${B}${c}`;
+let thiredCon=A.concat(B,c);
+
+console.log(firstCon,seconCon,thiredCon);
+
+
+//3. string to array 
+
+let str='rony';
+
+let array=str.split();
+
+console.log(array);
+
+
+
+//4. array to string
+
+const ar=["BMW","TVS","RUNNER","HONDA"];
+
+const arrToSt=ar.toString();
+console.log(arrToSt);
