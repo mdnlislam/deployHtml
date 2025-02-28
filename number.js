@@ -18,3 +18,11 @@ let A="246718";
 let Num=Number(A);
 console.log( Num);
 
+
+
+let roll='246718';
+
+let strToNum=Number(roll);
+
+console.log( typeof strToNum);
+

@@ -268,3 +268,49 @@ const ar=["BMW","TVS","RUNNER","HONDA"];
 
 const arrToSt=ar.toString();
 console.log(arrToSt);
+
+// map
+
+const digits=[12,34,5,7,8,9];
+
+const arr=digits.map(myFunction);
+
+
+function myFunction(num){
+	
+	
+	
+	return num *2;
+};
+	
+	
+	console.log(arr);
+	
+	
+const ages=[24,36,33,34,77,60];
+
+const Adult=ages.filter(myfilter);
+
+function myfilter(age){
+	
+	
+	
+	return age>24;
+};
+
+console.log(Adult);
+
+
+
+
+const Age=[10,24,60,77];
+
+const find=Age.find(myfind);
+
+function myfind(f){
+	
+	return f>60;
+};
+
+
+console.log(find);
