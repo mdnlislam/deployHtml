@@ -92,7 +92,7 @@ console.log(product);
 
 //2. object to string
 
-const product={
+/*const product={
 	name:'Rony',
 	roll:246718,
 	color:'red'
@@ -110,3 +110,40 @@ delete product['color'];
 console.log(product);
 
 
+### Object
+1. typeof object
+2. object to string
+3. separet key & valus
+4. valus access
+5. valus change or update or add
+6. property delete
+
+*/
+
+
+
+//1. typeof object  2 type of object 1.object 2.Array object
+
+
+//2. object to string
+
+const product={
+	A:'apple',
+	B:'bat',
+	C:'cat'
+};
+
+const objectToStr=JSON.stringify(product);
+
+const keysAccess=Object.keys(product);
+const valueAccess=Object.values(product);
+//valus access
+const valueA= typeof product['A'];
+//value add
+const valueAdd=product['s']='32';
+//value update
+
+//property delete
+delete product['A'];
+const valueUpdate=product['B']='belt';
+console.log( product );

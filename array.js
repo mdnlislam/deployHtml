@@ -108,7 +108,7 @@ console.log(a2)
 6.string to array 
 */
 
-const items=["BMW","TVS","RUNNER","HONDA"];
+/*const items=["BMW","TVS","RUNNER","HONDA"];
 const product={
 	A:'apple',
 };
@@ -127,3 +127,49 @@ digit.shift();
 delete digit[1];
 
 console.log(digit);
+*/
+/*### Array Object
+1. how to identify array
+2. data add,add data start of array,add data end of array,delete data start of array,delete dada end  of array
+3. data update ,delete
+4. find mathode
+5.array.join(and array to string)
+6.string to array  */
+
+//how to identify array
+const items=["BMW","TVS","RUNNER","HONDA"];
+const  product={
+	name:'rony',
+};
+
+
+items.push('RUNNER')
+
+items.unshift('Corola')
+items.pop();
+items.shift();
+
+
+delete items[1];
+
+const singleitem=items[3];
+console.log(singleitem);
+//array to string
+
+const digits=[10,11,12,14,15,20];
+
+const arrayToStr=digits.toString();
+
+
+//string to array
+
+const str='alhamdulillah';
+
+const array=str.split();
+console.log(  array);
+
+const fruits=["banana","apple","orange"];
+
+const join=fruits.join(' and ');
+
+console.log(  fruits.toString());
