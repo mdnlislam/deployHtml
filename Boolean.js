@@ -88,7 +88,7 @@ console.log( typeof boToStr)
 
 // number to boolean
 
-const num=353563276;
+/*const num=353563276;
 
 let numToBoll=Boolean(num)
 
@@ -121,3 +121,43 @@ let Bool=true;
 let boolToSt=Bool.toString();
 
 console.log( typeof boolToSt)
+*/
+
+/*### Boolean
+1. valus of Boolean
+2. number to boolean
+3. string to boolean - 3ways kora jai
+4. boolean to number
+5. boolean to string
+*/
+
+//1. valus of Boolean  boolean value have true and false
+
+//2. number to boolean
+
+let roll=246718;
+
+let numToboolean=Boolean(roll);
+
+console.log( typeof numToboolean);
+
+//'3. string to boolean - 3ways kora jai
+
+let cat='sana';
+
+let strToBool=Boolean(cat);
+
+console.log(strToBool);
+
+//4. boolean to number
+
+let girlisgood=true;
+
+let boolTonum=Number(girlisgood);
+console.log(boolTonum);
+
+//5. boolean to string
+
+let goodboy=true;
+let boolTostr=goodboy.toString();
+console.log( typeof boolTostr);

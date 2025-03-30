@@ -233,7 +233,7 @@ console.log(checkAge);
 
 //1. number to string
 
-let roll=246718;
+/*let roll=246718;
 let numToStri=roll.toString()
 console.log(numToStri);
 
@@ -310,6 +310,91 @@ const find=Age.find(myfind);
 function myfind(f){
 	
 	return f>60;
+};
+
+
+console.log(find);
+*/
+/*### string
+1. number to string
+2. concat (3 ways)
+3. string to array 
+4. array to string
+5. map
+6. filter
+7. find
+*/
+
+
+//1. number to string
+
+let num=246718;
+
+let numTost=num.toString();
+
+console.log( typeof numTost);
+
+//2. concat (3 ways)
+let c='cat';
+let b='bat';
+let a='apple';
+
+
+let firstConcat=c+b+a;
+let seconConcat=c.concat(b,a);
+let third=`${c}${b}${a}`;
+console.log(firstConcat,seconConcat,third);
+
+
+//3. string to array 
+
+let name='md.rony';
+
+let strToarr=name.split();
+console.log(strToarr);
+//4. array to string
+
+const product=['bmw','tvs','runner','tvs'];
+const arayTostr=JSON.stringify(product);
+const ttt=JSON.parse(arayTostr);
+console.log(ttt);
+
+const digit=[34,75,98,3];
+
+const newArra=digit.map(myfunction);
+
+function myfunction(num){
+	
+	return num/2;
+};
+
+myfunction(2);
+
+console.log(newArra);
+
+
+//6. filter
+
+const ages=[12,34,13,45,2,4,56];
+
+const Adult=ages.filter(AdultFunction);
+ function AdultFunction(age){
+	 
+	 
+	 
+	 return age<12;
+ }; 
+console.log(Adult);
+
+
+//7. find
+
+const Adults=[12,33,40,45,50];
+
+const find=Adults.find(myadult);
+function myadult(adul){
+	
+	return adul>12;
 };
 
 

@@ -223,7 +223,7 @@ Newmessage("how are you",5);
 8. for loop decrement
 */
 
-for(i=0;i<5;i++){
+/*for(i=0;i<5;i++){
 	
 	console.log("alhamdulillah");
 }
@@ -272,6 +272,47 @@ const digit=[2,4,6,8,3];
 	console.log(x)
 }
 */
-for(i=digit.length -1;i>=0;i--){
+/*for(i=digit.length -1;i>=0;i--){
 	console.log(digit[i])
 };
+
+### Loop
+1. for
+2. while
+3. Do while 
+4. map
+5. forEach
+6. for in
+7. for of
+8. for loop decrement
+*/
+
+//for
+
+const cars=['BMW','volvo','saab','ford'];
+
+
+for(let i=0;i<cars.length;i++){
+	console.log( typeof cars[i]);
+}
+
+const person={
+	fname:'john',
+	lname:'Doe',
+	age:25
+};
+
+for(let x in person ){
+console.log(person[x]);
+	
+};
+
+
+
+const foods=['apple','banana','orang'];
+
+for (let x of foods ){
+console.log( x);
+	
+};
+

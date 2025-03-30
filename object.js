@@ -127,7 +127,7 @@ console.log(product);
 
 //2. object to string
 
-const product={
+/*const product={
 	A:'apple',
 	B:'bat',
 	C:'cat'
@@ -147,3 +147,36 @@ const valueAdd=product['s']='32';
 delete product['A'];
 const valueUpdate=product['B']='belt';
 console.log( product );
+
+*/
+
+/*### Object
+1. typeof object
+2. object to string
+3. separet key & valus
+4. valus access
+5. valus change or update or add
+6. property delete
+
+*/
+
+// type of object 2 type object 1.object 2.array object
+
+
+//2. object to string
+
+const product={
+	name:'i-phone',
+	color:'block',
+	
+};
+//3. separet key & valus
+
+const key=Object.values(product);
+const add=product['screen']='7-inch'
+
+delete product['name'];
+console.log(product);
+
+const objectTostr=JSON.stringify(product);
+console.log( typeof objectTostr);

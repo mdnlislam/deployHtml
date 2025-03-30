@@ -57,7 +57,7 @@ Function
 ### Loop
 1. for
 2. while
-3. Do while
+3. Do while 
 4. map
 5. forEach
 6. for in
