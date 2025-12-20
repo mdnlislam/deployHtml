@@ -135,7 +135,7 @@ console.log( typeof boolToSt)
 
 //2. number to boolean
 
-let roll=246718;
+/*let roll=246718;
 
 let numToboolean=Boolean(roll);
 
@@ -161,3 +161,24 @@ console.log(boolTonum);
 let goodboy=true;
 let boolTostr=goodboy.toString();
 console.log( typeof boolTostr);
+*/
+
+/*### Boolean
+1. valus of Boolean
+2. number to boolean
+3. string to boolean - 3ways kora jai
+4. boolean to number
+5. boolean to string
+*/
+
+
+// value of boolean true or false
+
+//number to Boolean
+
+let code=45443;
+
+let a="Apple";
+
+let goodboy=true;
+console.log(  goodboy.toString() );

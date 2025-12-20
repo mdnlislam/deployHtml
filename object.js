@@ -165,7 +165,7 @@ console.log( product );
 
 //2. object to string
 
-const product={
+/*const product={
 	name:'i-phone',
 	color:'block',
 	
@@ -180,3 +180,32 @@ console.log(product);
 
 const objectTostr=JSON.stringify(product);
 console.log( typeof objectTostr);
+*/
+
+/*### Object
+1. typeof object
+2. object to string
+3. separet key & valus
+4. valus access
+5. valus change or update or add
+6. property delete
+
+*/
+
+
+// 2 type of object   object and array object
+
+
+//object to string
+
+const product={
+	
+	item:"i-phone",
+	color:"red",
+	
+};
+
+delete product['color'];
+product['crenn']='7-inch';
+
+console.log(product);

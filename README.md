@@ -21,9 +21,9 @@
 2. concat (3 ways)
 3. string to array 
 4. array to string
-5. map
-6. filter
-7. find
+5. map --Array
+6. filter --Array
+7. find -Single value (e.g. number, string, object, etc.) or undefined
 ### Number
 1. string to number
 
@@ -46,7 +46,7 @@
 2. data add,add data start of array,add data end of array,delete data start of array,delete dada end  of array
 3. data update ,delete
 4. find mathode
-5.array.join(and array to string)
+5.array.join(and array to string)-string
 6.string to array  
  
 ### Condition
@@ -85,3 +85,5 @@ Function
 ### tiles picture
 1.https://i.postimg.cc/RFywQ8sW/Whats-App-Image-2024-12-31-at-9-47-23-PM.jpg
 2.https://i.postimg.cc/7YgS0KgL/Whats-App-Image-2024-12-31-at-9-46-27-PM.jpg# whatsapp1.html
+3.mongodb+srv://nurulislam8433:NSzL384NCFvS8poX@cluster0.k0x7epe.mongodb.net/
+ 

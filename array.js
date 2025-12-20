@@ -186,7 +186,7 @@ console.log(  fruits.toString());
  */
  
  
-const items=['apple','banana','orange','painel'];
+/*const items=['apple','banana','orange','painel'];
 const product={
 	a:'alloh'
 };
@@ -200,3 +200,35 @@ delete items[3];
 const join=items.join('  ');
 const str=JSON.stringify(items);
 console.log( typeof str)
+*/
+/*### Array Object
+1. how to identify array
+2. data add,add data start of array,add data end of array,delete data start of array,delete dada end  of array
+3. data update ,delete
+4. find mathode
+5.array.join(and array to string)
+6.string to array  
+ */
+ 
+ 
+ // how to identify of array
+ 
+ const item=[ "banana","orange","Apple"];
+ 
+ const pro={
+	 a:"apple",
+ }
+ 
+ delete item[0]
+ 
+ 
+ const jont=item.join(" and ")
+ 
+ 
+ 
+ console.log(   JSON.stringify(item)  )
+ NSzL384NCFvS8poX
+ 
+ mongodb+srv://nurulislam8433:NSzL384NCFvS8poX@cluster0.k0x7epe.mongodb.net/
+ 
+ https://www.npmjs.com/package/mongoose

@@ -1,4 +1,3 @@
-
 /*### Loop
 1. for
 2. while
@@ -75,8 +74,6 @@ function myFunction(num){
 }
 console.log( newArray);
 */
-
-
 
 /*let users = [
   {
@@ -212,7 +209,7 @@ Newmessage("how are you",5);
   console.log(JSON .stringify(todos, null, 2 ));
   
   */
-  /*### Loop
+/*### Loop
 1. for
 2. while
 3. Do while
@@ -289,30 +286,10 @@ const digit=[2,4,6,8,3];
 
 //for
 
-const cars=['BMW','volvo','saab','ford'];
+const cars = ["BMW", "volvo", "saab", "ford"];
 
-
-for(let i=0;i<cars.length;i++){
-	console.log( typeof cars[i]);
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
 }
-
-const person={
-	fname:'john',
-	lname:'Doe',
-	age:25
-};
-
-for(let x in person ){
-console.log(person[x]);
-	
-};
-
-
-
-const foods=['apple','banana','orang'];
-
-for (let x of foods ){
-console.log( x);
-	
-};
-
+console.log(text);
