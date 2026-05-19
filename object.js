@@ -193,19 +193,17 @@ console.log( typeof objectTostr);
 */
 
 
-// 2 type of object   object and array object
 
+// 2 type of object  object and array object
 
-//object to string
-
-const product={
+const obj={
 	
-	item:"i-phone",
-	color:"red",
-	
+	model:"x-Ultra",
+	name:"i-phone",
+	colour:"red"
 };
 
-delete product['color'];
-product['crenn']='7-inch';
 
-console.log(product);
+delete obj['name'];
+
+console.log(obj);

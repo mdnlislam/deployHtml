@@ -28,13 +28,7 @@ console.log( typeof strToNum);
 
 */
 
+
 let roll=246718;
-console.log(typeof roll);
 
-
-let code='248734';
-
-let name="Al-amin";
-
-console.log( typeof Number(code) );
-
+console.log(roll);

@@ -100,10 +100,18 @@ let text="how are you doing today";
 7. find
 */
 
-const array = ["1", "22", "11", "38", "22"];
 
-const find = array.find((item) => {
-  return item == 1;
+const arr=["2",23,11,31,10,9];
+
+//console.log(arr);
+
+
+const find=arr.find(function(item){
+	
+	
+	
+	return item==="2"
+	
 });
 
-console.log(typeof find);
+console.log( find)

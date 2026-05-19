@@ -7,6 +7,11 @@
 5.join
 */
 
+
+//mongodb+srv://nurulislam8433:NSzL384NCFvS8poX@cluster0.k0x7epe.mongodb.net/
+ 
+ //https://www.npmjs.com/package/mongoose
+
  // how to identify array
  
 /* const fruits=["Banana","Orange","Apple","Mango"];
@@ -213,22 +218,16 @@ console.log( typeof str)
  
  // how to identify of array
  
- const item=[ "banana","orange","Apple"];
+
+
+
+let name="Hasan Mia";
+
+const array=name.split();
+console.log( typeof array);
+
+
+
+
+
  
- const pro={
-	 a:"apple",
- }
- 
- delete item[0]
- 
- 
- const jont=item.join(" and ")
- 
- 
- 
- console.log(   JSON.stringify(item)  )
- NSzL384NCFvS8poX
- 
- mongodb+srv://nurulislam8433:NSzL384NCFvS8poX@cluster0.k0x7epe.mongodb.net/
- 
- https://www.npmjs.com/package/mongoose

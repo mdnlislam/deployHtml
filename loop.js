@@ -286,10 +286,9 @@ const digit=[2,4,6,8,3];
 
 //for
 
-const cars = ["BMW", "volvo", "saab", "ford"];
+let i = 0;
 
-let text = "";
-for (let i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
-}
-console.log(text);
+do {
+  console.log(i);
+  i++;
+} while (i <= 20);

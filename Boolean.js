@@ -1,4 +1,3 @@
-
 /*### Boolean
 1. valus of Boolean
 2. number to boolean
@@ -6,7 +5,6 @@
 4. boolean to number
 5. boolean to string
 */
-
 
 /*let roll=246712;
 
@@ -37,17 +35,14 @@ console.log(stringToBoolean);
  
  console.log( typeof booleanToString);
  */
- 
- 
- /*### Boolean
+
+/*### Boolean
 1. valus of Boolean
 2. number to boolean
 3. string to boolean - 3ways kora jai
 4. boolean to number
 5. boolean to string
 */
-
-
 
 //2. number to boolean
 
@@ -82,7 +77,6 @@ console.log( typeof boToStr)
 4. boolean to number
 5. boolean to string
 */
-
 
 //1. valus of Boolean  this value true and false
 
@@ -171,14 +165,24 @@ console.log( typeof boolTostr);
 5. boolean to string
 */
 
-
 // value of boolean true or false
 
 //number to Boolean
 
-let code=45443;
+/*### Boolean
+1. valus of Boolean
+2. number to boolean
+3. string to boolean - 3ways kora jai
+4. boolean to number
+5. boolean to string
+*/
 
-let a="Apple";
 
-let goodboy=true;
-console.log(  goodboy.toString() );
+// boolean value true and false
+
+let num=false;
+
+
+const bo=Number(num);
+
+console.log(bo);
