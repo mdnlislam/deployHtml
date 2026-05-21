@@ -72,41 +72,61 @@ console.log(day);
 Function
 */
 
+
+
 const time=new Date().getHours();
+
 let greeting;
 
+
 if(time<10){
-	greeting="Good morning"
+	greeting="Good morning";
+} else if(time<20){
+	greeting="Good day";
+} else{
+	greeting="Good evening";
 }
-else if(time<20){
-	greeting="Good day"
-}
-else{
-	
-	greeting="Good evening"
-}
+
+
+
+
 
 console.log(greeting);
 
-// switch
 
 
-let Text;
 
-switch (new Date().getDay()){
+
+let day;
+
+let date=  new Date().getDay();
+
+
+switch(date){
 	
-	default:
-	
-	Text="Looking forward to the Weekend";
+	case 0:
+	day="sunday";
+	break;
+	case 1:
+	day="Monday";
+	break;
+	case 2:
+	day="Tuesday";
+	break;
+	case 3:
+	day="Wednesday";
+	break;
+	case 4:
+	day="Thursday";
+	break;
+	case 5:
+	day="Friday";
 	break;
 	case 6:
-	Text="Today is saturday";
-	break;
-	case 0:
-	
-	Text="Today is Sunday"
+	day="Saturday";
 	
 	
-}
+};
 
-console.log(Text);
+
+console.log(day);

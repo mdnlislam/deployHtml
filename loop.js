@@ -286,9 +286,43 @@ const digit=[2,4,6,8,3];
 
 //for
 
-let i = 0;
 
-do {
-  console.log(i);
-  i++;
-} while (i <= 20);
+
+/* const cars=["BMW","Volvo","Saab","Ford"];
+ 
+ let i=0;
+ 
+ let text="";
+ 
+ while(cars[i]){
+	 text  += cars[i] +"\n";
+	 
+	 i++;
+ };
+ 
+ console.log(text);
+ 
+ 
+ */
+ 
+
+const obj={
+	
+	phone:"i-phone",
+	model:"X_ altra",
+	colour:"red"
+};
+ 
+ 
+ const arr=["BMW","TVS","Runner","TV"];
+ 
+ 
+let text="";
+ for (let x of arr ){
+	 
+	 text=text+x + "\n"
+	 
+ };
+ 
+ 
+ console.log(text);
